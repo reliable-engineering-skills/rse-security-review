@@ -1,0 +1,4 @@
+interface:
+  display_name: "RSE Security Review"
+  short_description: "Focused security review with defensible findings"
+  default_prompt: "Use $rse-security-review to review a trust boundary and report evidence-graded findings."
