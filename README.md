@@ -1,5 +1,7 @@
 # rse-security-review
 
+[![CI](https://github.com/reliable-engineering-skills/rse-security-review/actions/workflows/ci.yml/badge.svg)](https://github.com/reliable-engineering-skills/rse-security-review/actions/workflows/ci.yml) [![Release](https://img.shields.io/github/v/release/reliable-engineering-skills/rse-security-review)](https://github.com/reliable-engineering-skills/rse-security-review/releases/latest) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 Focused security review: trace untrusted input to sensitive sinks and report evidence-graded findings without touching production.
 
 > Requires [reliable-software-engineering](https://github.com/reliable-engineering-skills/reliable-software-engineering) installed alongside. Links such as `../reliable-software-engineering/references/...` resolve on disk after installation, not on the GitHub web view.
@@ -33,6 +35,7 @@ for r in reliable-software-engineering rse-task-packs rse-refactoring rse-securi
 ```
 
 Codex: clone the same five repositories into `~/.codex/skills/`. Update later with `git pull` in each folder.
+To install a specific release instead of `main`, see [Pin a release](https://github.com/reliable-engineering-skills/reliable-software-engineering#pin-a-release).
 
 ## Contents
 
